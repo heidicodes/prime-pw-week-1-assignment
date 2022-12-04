@@ -1,11 +1,35 @@
 /* Give your page a fun background color */
-
+body {
+    background-color: rgb(213, 154, 54);
+    margin: 25px 50px 75px 100px;
+}
 /* Make the header and footer a different color from the background */
-
+h1 {
+    font-family: cursive;
+    color: rgb(128, 0, 64);
+    /* rgb value for h1 header */
+}
 /* Align the h1 containing your name in the center of the header*/
-
+h1 {
+    text-align: center
+    /* aligns text to center */
+}
 /* Make your p tag a different color and italic */
-
+p {
+    color: rgb(13, 9, 37);
+    text-align: 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold
+}
 /* Put a border around your image */
-
+img {
+    width: 275px;
+    border: 3px solid hsl(24, 100%, 43%);
+    padding: 10px;
+}
 /* Change the font-family of your list */
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: circle;
+}
